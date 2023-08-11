@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+}
+.mainbody {
+  width: 793px;
+  height: 1122px;
+  box-shadow: 3px 3px 10px grey;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.leftbox {
+  background-color: rgb(13, 52, 91);
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+  color: white;
+  padding: 40px 35px 35px 35px;
+  letter-spacing: 1px;
+}
+.rightbox {
+  background-color: white;
+  width: 65%;
+  height: 100%;
+  font-weight: 280px;
+  display: inline-block;
+  padding: 55px 35px 35px 35px;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+.image1 {
+  display: flex;
+  height: 170px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.picture {
+  width: 170px;
+  border-radius: 90px 90px;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.degree {
+  color: rgb(19, 65, 111);
+  font-weight: 600;
+}
+.contact {
+  margin-top: 50px;
+}
+.skills,
+.languages,
+.softskills {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: burlywood;
+}
+.contactheading,
+.skillsheading,
+.languagesheading,
+.softskillsheading {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.content {
+  margin-top: 10px;
+}
+ul {
+  padding-left: 15px;
+}
+.aboutheading,
+.coursesheading,
+.educationheading,
+.projectsheading {
+  color: rgb(20, 59, 99);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.rightbox > div {
+  margin-bottom: 40px;
+}
+.rightbox > div:last-child {
+  margin-bottom: 0;
+}
+.rightbox > div > ul > li {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+.leftbox > div > div > ul > li {
+  margin-bottom: 4px;
+}
+@media screen and (max-width: 832px) {
+  .mainbody {
+    box-shadow: 3px 3px 10px grey;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .leftbox {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .rightbox {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
